@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  field: MyString
+  techname: MyString
+  required: false
+  actions: MyString
+  integration_id: 1
+
+two:
+  field: MyString
+  techname: MyString
+  required: false
+  actions: MyString
+  integration_id: 1

@@ -1,0 +1,30 @@
+development:
+  adapter: postgresql
+  database: dev_factura_db
+  username: seancarroll
+  password: factura101
+  host: localhost
+  encoding: UTF8 
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: tst_factura_db
+  username: seancarroll
+  password: factura103
+  host: localhost
+  encoding: UTF8
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  database: prd_factura_db
+  username: seancarroll
+  password: guzelcamli99! 
+  host: localhost
+  encoding: UTF8
+  pool: 5
+  timeout: 5000
+

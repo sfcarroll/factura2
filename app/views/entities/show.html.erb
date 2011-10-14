@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @entity.name %>
+</p>
+
+<p>
+  <b>Abn:</b>
+  <%= @entity.abn %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @entity.address %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @entity.phone %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @entity.status %>
+</p>
+
+<p>
+  <b>System:</b>
+  <%= @entity.system %>
+</p>
+
+
+<%= link_to 'Edit', edit_entity_path(@entity) %> |
+<%= link_to 'Back', entities_path %>
